@@ -5,8 +5,10 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias ls='ls --color=auto'
-alias grep='grep --color=auto'
+if [ -f $HOME/.alias ]; then
+  source $HOME/.alias
+fi
+
 PS1='[\u@\h \W]\$ '
 
-alias vi=nvim
+PATH="$PATH:$HOME/bin"
