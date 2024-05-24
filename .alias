@@ -16,3 +16,8 @@ alias l="ls -l"
 alias la="ls -a"
 alias lla="ls -la"
 alias grep='grep --color=auto'
+
+# git
+alias glog="git log"
+alias gstat="git status"
+
