@@ -1,5 +1,14 @@
 alias vi=nvim
 
+# nav
+alias dl="cd ~/downloads"
+
+# config shortcuts
+alias src="source ~/.bashrc"
+alias brc="vi ~/.bashrc"
+alias vrc="vi ~/.config/nvim/init.vim"
+alias aka="vi ~/.alias"
+
 # ls / grep
 alias ls="ls --color=auto"
 alias l="ls -l"
