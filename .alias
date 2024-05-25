@@ -28,5 +28,5 @@ alias gl="git log"
 alias glog="git log"
 alias gs="git status"
 alias gstat="git status"
-
+alias gp="git push"
 
