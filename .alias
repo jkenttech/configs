@@ -4,6 +4,9 @@ alias vi=nvim
 alias dl="cd ~/downloads"
 alias xx="exit"
 
+# dev
+alias sql="sqlite3"
+
 # config shortcuts
 alias src="source ~/.bashrc"
 alias brc="vi ~/.bashrc"
