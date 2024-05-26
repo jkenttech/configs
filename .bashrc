@@ -22,6 +22,6 @@ if [ -f $HOME/.alias_local ]; then
 fi
 
 #PS1='[\u@\h \W]\$ '
-eval "$(oh-my-posh init bash --config /home/jake/.themes/posh/agnosterplus.omp.json)"
+eval "$(oh-my-posh init bash --config /home/jake/.themes/posh/hul10.omp.json)"
 
 cat $HOME/bin/tmuxCheatsheet.md
