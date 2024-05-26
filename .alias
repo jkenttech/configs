@@ -8,10 +8,11 @@ alias xx="exit"
 alias sql="sqlite3"
 
 # config shortcuts
-alias src="source ~/.bashrc"
-alias brc="vi ~/.bashrc"
-alias vrc="vi ~/.config/nvim/init.vim"
 alias aka="vi ~/.alias"
+alias brc="vi ~/.bashrc"
+alias cfg="cd ~/.config"
+alias src="source ~/.bashrc"
+alias vrc="vi ~/.config/nvim/init.vim"
 
 # ls / grep
 alias ls="ls --color=auto"
