@@ -2,6 +2,7 @@ alias vi=nvim
 
 # nav
 alias dl="cd ~/downloads"
+alias up=". $HOME/bin/up.sh"
 alias xx="exit"
 
 # dev
@@ -22,7 +23,7 @@ alias lla="ls -la"
 alias grep='grep --color=auto'
 
 # git
-alias ga="git add"
+alias ga="git add -f"
 alias gc="git commit -m"
 alias gconf="git config"
 alias gl="git log"
